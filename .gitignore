@@ -1,0 +1,46 @@
+# Laravel .gitignore
+
+## Laravel directories
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.idea
+/.vscode
+
+## Laravel environment file
+.env
+.env.*
+
+## PHPStorm
+.idea/
+
+## Composer
+composer.phar
+
+## Node modules
+npm-debug.log
+yarn-error.log
+
+## MacOS
+.DS_Store
+
+## Windows
+Thumbs.db
+Desktop.ini
+
+## Log files
+*.log
+*.sql
+*.sqlite
+
+## NPM package and lock files (if you want to ignore them as well)
+package-lock.json
+yarn.lock
+
+## PHPUnit
+phpunit.xml
+phpunit.xml.dist
+
+## Laravel Debugbar (if you are using it)
+/.phpunit.result.cache
